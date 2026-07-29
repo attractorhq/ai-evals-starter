@@ -11,12 +11,14 @@
     "evaluators",
     "evals",
     "JSONL",
+    "pycache",
     "pyproject",
     "scorer",
     "scorers",
     "setuptools",
     "unreviewed",
-    "unpriced"
+    "unpriced",
+    "venv"
   ],
   "ignorePaths": ["LICENSE", "__pycache__", "*.egg-info"]
 }
