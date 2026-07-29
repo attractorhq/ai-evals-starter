@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible evaluator, contract, or report problem
+title: "[Bug]: "
+labels: [bug, triage]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and minimal redacted JSONL
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

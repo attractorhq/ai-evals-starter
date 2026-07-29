@@ -1,0 +1,22 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "argparse",
+    "Attractor",
+    "compileall",
+    "dataclass",
+    "dataclasses",
+    "evaluator",
+    "evaluators",
+    "evals",
+    "JSONL",
+    "pyproject",
+    "scorer",
+    "scorers",
+    "setuptools",
+    "unreviewed",
+    "unpriced"
+  ],
+  "ignorePaths": ["LICENSE", "__pycache__", "*.egg-info"]
+}

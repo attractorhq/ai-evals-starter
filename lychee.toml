@@ -1,0 +1,4 @@
+exclude_mail = true
+exclude = [
+  '^https://github\.com/attractorhq/ai-evals-starter/(discussions|security/advisories/new)$'
+]

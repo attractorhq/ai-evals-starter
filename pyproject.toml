@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attractor-ai-evals-starter"
+version = "0.1.0"
+description = "A provider-neutral, offline-first AI evaluation starter."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Attractor Development", email = "git@attractor.fi" }]
+keywords = ["llm-evaluation", "ai-engineering", "testing", "ci-cd"]
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.scripts]
+ai-evals = "ai_evals_starter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai_evals_starter*"]

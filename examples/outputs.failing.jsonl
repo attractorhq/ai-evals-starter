@@ -1,0 +1,3 @@
+{"id":"greeting","output":"Hi there.","citations":[],"latency_ms":50,"cost_usd":0}
+{"id":"routing","output":"billing","citations":[],"latency_ms":120,"cost_usd":0.001}
+{"id":"refund-window","output":"You have fourteen days.","citations":[{"source_id":"unreviewed-blog"}],"latency_ms":1200,"cost_usd":0.02}

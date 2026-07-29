@@ -1,0 +1,3 @@
+{"id":"greeting","output":"Hello! How can I help?","citations":[],"latency_ms":50,"cost_usd":0}
+{"id":"routing","output":"{\"category\":\"billing\",\"confidence\":0.94}","citations":[],"latency_ms":120,"cost_usd":0.001}
+{"id":"refund-window","output":"You can return an unused item within 30 days.","citations":[{"source_id":"returns-policy","quote":"within 30 days"}],"latency_ms":800,"cost_usd":0.01}

@@ -1,0 +1,17 @@
+name: Evaluation improvement
+description: Propose a scorer, contract, report, or workflow improvement
+title: "[Proposal]: "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Evaluation need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed deterministic behavior
+    validations:
+      required: true
