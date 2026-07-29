@@ -1,4 +1,5 @@
-exclude_mail = true
+include_mail = false
+exclude_path = ["build", "dist", ".venv", "__pycache__"]
 exclude = [
   '^https://github\.com/attractorhq/ai-evals-starter/(discussions|security/advisories/new)$'
 ]
