@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      - uses: streetsidesoftware/cspell-action@be2f4e90aec7a3e1c98d1678e1a49a3f58435c9f # v7
+      - uses: streetsidesoftware/cspell-action@76c6f6d52abd57f4bcab5f3fde1bbd4f19a99eb0 # v7
         with:
           files: "**/*.{md,py,json,jsonl,yml,yaml,toml}"
           incremental_files_only: false
